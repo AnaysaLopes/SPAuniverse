@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --platform-text: #8D8D99;
+    --neutral-white: #FFF;
+}
+
+body,
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: var(--neutral-white);
+    cursor: pointer;
+}
+
+body {
+    max-width: 100%; 
+    margin: 0 auto;
+    font-weight: 400;
+    overflow: hidden;
+    line-height: 1.6rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 4.5rem 2.5rem 8rem;
+    gap: 3.4rem;
+}
+
+
+a {
+    all: unset;
+    margin: 0 3.3rem 0 0; 
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--platform-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a:last-child {
+    margin-right: 0; 
+}
+
+a:active,
+a:hover {
+    color: var(--neutral-colors-white);
+    font-weight: 700;
+}
+
+#vetor {
+    width: 5rem; 
+    height: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+h1 {
+    color: var(--neutral-colors-white);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%; 
+    margin-bottom: 1.5rem;
+}
+
+
+.home, 
+.error {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin-top: -8rem;
+}
+
+.error p {
+    text-align: center; 
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.home button,
+#redirectButton {
+    color: #FFF;
+    font-family: 'roboto',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent; 
+    border: 1px solid var(--neutral-white);
+    border-radius: 0.3rem;
+    padding: 1rem 2.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; 
+}
+
+.home button:hover,
+#redirectButton:hover  {
+    background-color: var(--neutral-white);
+    color: #02799D;
+}
+
+.universe,
+.exploration {
+    margin-left: 9.5rem;
+    margin-top: 8.5rem;
+}
+
+
+p {
+    width: 62rem;
+    color: var(--neutral-white);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+
+
+
